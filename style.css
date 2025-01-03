@@ -1,0 +1,103 @@
+body {
+    background-color: #f3f4f6; /* Light grey background for better contrast */
+    color: #333; /* Dark grey text for better readability */
+    font-family: Arial, Helvetica, sans-serif; /* Consistent font for body */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 2.5em; /* Larger heading size */
+    color: #333; /* Dark grey color */
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+/* Paragraph */
+p {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #666; /* Medium grey color */
+    margin: 20px 40px; /* Margin for better spacing */
+    line-height: 1.6; /* Better line spacing for readability */
+}
+
+/* Div container */
+div {
+    display: flex;
+    background: rgb(167, 20, 20); /* Same red background */
+    font-size: large;
+    justify-content: space-around; /* Evenly spaces children */
+    padding: 20px; /* Adds padding around the content */
+    margin: 10px 0; /* Adds margin above and below */
+    border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+/* Button */
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px; /* Padding for better spacing */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Ordered list */
+ol {
+    text-align: center;
+    font-size: medium;
+    list-style-position: inside; /* List numbers inside the content */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px; /* Restrict width for better readability */
+}
+
+ol li {
+    margin: 10px 0; /* Adds margin between list items */
+}
+
+img {
+    height: 200px;
+    width: 300;
+    display:inline-flex;
+    
+
+}
+
+/* Container for the links */
+.link-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    padding-right: 20px; /* Adds some padding on the right */
+}
+
+/* Style for the links */
+.link-container a {
+    font-weight: bold; /* Makes the text bold */
+    margin-left: 20px; /* Adds space between the links */
+    text-decoration: none; /* Removes underline from links */
+    color: #007BFF; /* Custom link color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Hover effect */
+.link-container a:hover {
+    color: #0056b3; /* Changes color on hover */
+}
